@@ -1,0 +1,10 @@
+Package: foRmatDate
+Type: Package
+Title: format R Date
+Version: 0.1.0
+Author: HatMatrix
+Maintainer: HatMatrix <hatmatrix42@gmail.com>
+Description: format date in R using Go Style
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1

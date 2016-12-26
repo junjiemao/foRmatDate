@@ -1,9 +1,7 @@
 # foRmatDate
 
-forRmatDate is a humanized date  formarting R package，focussed on tools for working with date in R.It has two goals:
-
-- should not  remeber formats string like `%a、%H`
-- use the same interface to work with date no matter which it is, whether in a `Date`, `POSIXt` or others.
+forRmatDate是一个人性化的格式字符串的R包，使用类似Go的时间格式风格。无需
+再记`%H,%b`之类的符号
 
 
 
@@ -27,9 +25,7 @@ formatDate('2016-12-24','Apr/23/1997 Wednesday')
 ```
 
 ## why `1997-04-23 14:53:42`
-
-R's birthday is 1993-08, but the oldest version R (R-0.49)in 
-[CRAN-R-0]( https://cran.r-project.org/src/base/R-0/)
-is related at `1997-04-23 14:53`.To be exclusive for each element,
-we using `42` indicate `seconds`
+R诞生于1993年8月，但是在[CRAN-R-0]( https://cran.r-project.org/src/base/R-0/)
+上找到的最久的版本（R-0.49）是 `1997-04-23 14:53`。此外，为了能够表示
+每一个元素，我们选择了42这个容易记住的数字来表示秒。
 

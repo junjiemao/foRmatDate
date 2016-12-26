@@ -29,7 +29,7 @@ formatDate('2016-12-24','Apr/23/1997 Wednesday')
 ## why `1997-04-23 14:53:42`
 
 R's birthday is 1993-08, but the oldest version R (R-0.49)in 
-[CRAN-R-0]: https://cran.r-project.org/src/base/R-0/	"CRAN-R-0"
+[CRAN-R-0]( https://cran.r-project.org/src/base/R-0/)
 is related at `1997-04-23 14:53`.To be exclusive for each element,
 we using `42` indicate `seconds`
 

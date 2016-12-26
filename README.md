@@ -12,9 +12,9 @@ formatDate(Sys.time(),'1997-04-23 14:53:42 GMT')
 #[1] "2016-12-25 23:07:10 HKT"
 
 formatDate('2016-12-24','Apr/23/1997 Wed')
-#[1] "12/24/2016 Sat"
-formatDate('2016-12-24','Apr/23/1997 Wed')
-#[1] "12/24/2016 Saturday"
+#[1] "Dec/24/2016 Sat"
+formatDate('2016-12-24','April/23/1997 Wed')
+#[1] "Decil/24/2016 Saturday"
 
 Sys.setlocale("LC_ALL","zh_cn.UTF-8")
 #[1] "zh_cn.UTF-8/zh_cn.UTF-8/zh_cn.UTF-8/C/zh_cn.UTF-8/zh_CN.UTF-8"

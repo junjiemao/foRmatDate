@@ -9,6 +9,9 @@ formatDate(x, format = "1997-04-23 14:53:42")
 \arguments{
 \item{x, characte}{or date or POSIXt}
 }
+\value{
+Date or POSIXT
+}
 \description{
 format date using Go stytle
 }

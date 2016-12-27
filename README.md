@@ -6,6 +6,8 @@ forRmatDate是一个人性化的格式日期字符串的R包，使用类似Go的
 ## Usage
 
 ```R
+devtools::install_github(repo = 'foRmatDate',username = 'junjiemao')
+
 formatDate(Sys.time(),'1997-04-23 14:53:42 GMT')
 #[1] "2016-12-25 23:07:10 HKT"
 

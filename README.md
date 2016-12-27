@@ -1,6 +1,6 @@
 # foRmatDate
 
-forRmatDate是一个人性化的格式日期字符串的R包，使用类似Go的时间格式风格。无需
+foRmatDate是一个人性化的格式日期字符串的R包，使用类似Go的时间格式风格。无需
 再记`%H,%b`之类的符号，人生苦短，我用foRmatDate。
 
 ## Usage
